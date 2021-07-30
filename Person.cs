@@ -10,7 +10,7 @@ namespace ClassesAndObjects_ChildrenExercise_01
     {
         public string Name { get; set; }
         public virtual int Age { get; set; }  
-        // virtual -> because child calass Childneed its own implementation for Age (Age < 15)
+        // virtual -> because child class Child needs its own implementation for Age (Age < 15)
         public string Id { get; set; }
 
         public Person()
